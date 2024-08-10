@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+    height: fit-content;
+
+}
+
+
+
+.container1 {
+
+    height: 720px;
+    width: auto;
+    display: flex;
+    background: url("background.png");
+    object-fit: contain;
+    /* background-blend-mode: darken; */
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.nav {
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    /* background-color: aliceblue; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 90px;
+    width: auto;
+    /* object-fit: cover; */
+    margin-left: 150px;
+    fill: #E50914;
+    /* background-color: red; */
+}
+
+.signin button {
+    background-color: #E50914;
+    color: white;
+    padding: 5px 11px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 550;
+    margin-right: 150px;
+}
+
+.signin button:hover {
+    background-color: #ca0812;
+}
+
+.centre {
+    display: flex;
+    margin: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    width: auto;
+    /* background-color: rgb(0, 58, 109); */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+}
+
+.centreh1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centreh2 {
+    font-weight: 900;
+    /* font-size: 50px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centreh3 {
+    font-weight: 900;
+    /* font-size: 50px; */
+}
+
+.address {
+    display: flex;
+    gap: 15px;
+    /* color: white; */
+}
+
+.form input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 130px;
+    font-weight: 600;
+    font-size: medium;
+    opacity: 50%;
+    border-radius: 5px;
+    border: solid white 1px;
+    /* color: white; */
+    background: #6492bc;
+
+
+
+}
+
+
+
+.form input::placeholder {
+    color: #f1f6ff;
+
+
+
+}
+
+.getstarted button {
+    display: flex;
+    justify-content: center;
+    padding: 15px 80px 18px 15px;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: #E50914;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+
+
+}
+
+.getstarted button:hover {
+    background-color: #ca0812;
+}
+
+.space {
+    height: 9px;
+    width: 100%;
+    background-color: #232323;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 200px;
+    /* gap: 50px; */
+}
+
+.mp4 video {
+    position: relative;
+    right: 7%;
+    bottom: 10%;
+
+}
+
+.tv {
+
+    position: absolute;
+    left: 48%;
+    top: 115%;
+
+
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 130px;
+    /* gap: 50px; */
+}
+
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 200px;
+    /* gap: 50px; */
+}
+
+.text4 {
+    width: 550px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 120px;
+    /* gap: 50px; */
+}
+
+.questions {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 900px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 120px;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.box1 {
+    display: flex;
+    background-color: #2D2D2D;
+    height: 90px;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top {
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0 20px 0;
+}
+
+.boxtext {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px 0 20px;
+    font-weight: 900;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.symbol h1 {
+    color: white;
+    fill: white;
+    display: flex;
+
+    padding-right: 20px;
+    /* background-color: #ca0812; */
+}
+
+.address2 {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0 10px 0;
+    /* color: white; */
+}
+
+.ready {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 35px 0 5px 0;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 120px;
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.firstcolumn ul {
+    color: #AFAFAF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration: underline;
+
+    padding: 10px 14px;
+
+}
+
+.opt select {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px 12px;
+}
+
+.nepal ul {
+    color: #AFAFAF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+
+}
+
+.secondcolumn ul {
+    color: #AFAFAF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration: underline;
+
+    padding: 10px 14px;
+}
+
+.thirdcolumn ul {
+    color: #AFAFAF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration: underline;
+
+    padding: 10px 14px;
+}
+
+.fourthcolumn ul {
+    color: #AFAFAF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration: underline;
+
+    padding: 10px 14px;
+    margin: 0 0 0 50px;
+}
